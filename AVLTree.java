@@ -21,7 +21,7 @@ public class AVLTree {
 		this.min = this.root;
 		this.max = this.root;
 	}
-	
+
 	//Constructor for tree with given key and info 
 	public AVLTree(int key, String val) {
 		IAVLNode root = new AVLNode(key, val);
