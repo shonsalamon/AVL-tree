@@ -1,3 +1,5 @@
+//Shon_Salamon
+
 /**
  *
  * AVLTree
@@ -6,7 +8,7 @@
  * distinct integer keys and info
  *
  */
-//ShonSalamon - 313431967
+ 
 
 
 public class AVLTree {
