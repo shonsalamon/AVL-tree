@@ -1111,7 +1111,6 @@ public class AVLTree {
    }
 	/**
 	   * public interface IAVLNode
-	   * ! Do not delete or modify this - otherwise all tests will fail !
 	   */
 	public interface IAVLNode{	
 		public int getKey(); //returns node's key (for virtual node return -1)
@@ -1136,11 +1135,7 @@ public class AVLTree {
    /**
    * public class AVLNode
    *
-   * If you wish to implement classes other than AVLTree
-   * (for example AVLNode), do it in this file, not in 
-   * another file.
-   * This class can and must be modified.
-   * (It must implement IAVLNode)
+   *  implemention of IAVLNode
    */
   public class AVLNode implements IAVLNode{
 	  private int key, height,size;
